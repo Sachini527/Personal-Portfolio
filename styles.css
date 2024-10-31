@@ -11,22 +11,22 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: rgba(245, 245, 255, 0.95);
-    /* Light semi-transparent white */
+    /* light semi-transparent white */
     color: #333;
     line-height: 1.6;
 }
 
 /* Navigation Bar*/
 header nav ul {
-    list-style-type: none;
     display: flex;
     justify-content: center;
     background: linear-gradient(45deg, #e0f7fa, #80deea);
-    /* Gradient color */
+    /* gradient color */
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    /* Shadow */
+    /* shadow */
     border-radius: 5px;
+    list-style-type: none;
 }
 
 header nav ul li {
@@ -34,10 +34,10 @@ header nav ul li {
 }
 
 header nav ul li a {
+    padding: 10px 20px;
     color: #333;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px 20px;
     transition: color 0.3s ease;
     /*  Transition effect */
     transform: scale(1);
@@ -49,4 +49,40 @@ header nav ul li a:hover {
     /* User action pseudo-class(hover)*/
     transform: scale(1.1);
     /* Transform on hover */
+}
+
+/* styles for social media links & icons */
+.social-links {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    /* display links in a column */
+    gap: 15px;
+    justify-content: center;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    /* padding around each link */
+    color: #00796b;
+    /* icon and text color */
+    font-size: 1.2em;
+    /* make text slightly larger */
+    transition: color 0.3s ease;
+    /* transition effect */
+    border-radius: 5px;
+    text-decoration: none;
+    /* remove underline */
+}
+
+.social-links a:hover {
+    color: #004d40;
+    /* User action pseudo-class(hover)*/
+}
+
+.social-links a:hover span {
+    text-decoration: underline;
 }
