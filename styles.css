@@ -3,12 +3,12 @@
 
 /* Styles for all elements */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
     background-color: rgba(245, 245, 255, 0.95);
     /* Light semi-transparent white */
@@ -17,7 +17,7 @@ body{
 }
 
 /* Navigation Bar*/
-header nav ul{
+header nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -27,4 +27,26 @@ header nav ul{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     /* Shadow */
     border-radius: 5px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
+    /*  Transition effect */
+    transform: scale(1);
+    /* Transform for hover effect */
+}
+
+header nav ul li a:hover {
+    color: #00796b;
+    /* User action pseudo-class(hover)*/
+    transform: scale(1.1);
+    /* Transform on hover */
 }
