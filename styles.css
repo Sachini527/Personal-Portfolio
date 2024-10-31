@@ -1,0 +1,30 @@
+/* Import Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* Styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(245, 245, 255, 0.95);
+    /* Light semi-transparent white */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar*/
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(45deg, #e0f7fa, #80deea);
+    /* Gradient color */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Shadow */
+    border-radius: 5px;
+}
