@@ -96,7 +96,7 @@ footer {
     font-size: 0.9em;
 }
 
-footer::before{
+footer::before {
     content: "Thank you for visiting ";
     /* Generated content with pseudo-element */
     font-weight: bold;
@@ -113,9 +113,27 @@ footer::before{
     }
 }
 
-header{
+header {
     animation: fadeIn 2s ease-in;
     /* Animation effect */
 }
 
+/* Main, About, Blog & contact page layout */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    flex: 1; /* push the footer to the bottom */
+}
 
+section, aside{
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
