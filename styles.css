@@ -170,3 +170,13 @@ section, aside{
     margin-bottom: 20px; 
 }
 
+/* About page styles*/
+
+#myStory h2, #technicalSkills h2, #interests h2, #certificates h2{
+    color: blue;
+}
+
+#technicalSkills ul li{
+    margin-left: 2px;
+    font-weight: bold;
+}
