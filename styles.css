@@ -86,3 +86,36 @@ header nav ul li a:hover {
 .social-links a:hover span {
     text-decoration: underline;
 }
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #80deea;
+    color: #333;
+    font-size: 0.9em;
+}
+
+footer::before{
+    content: "Thank you for visiting ";
+    /* Generated content with pseudo-element */
+    font-weight: bold;
+}
+
+/* Animated (Fade-in) Header */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+header{
+    animation: fadeIn 2s ease-in;
+    /* Animation effect */
+}
+
+
