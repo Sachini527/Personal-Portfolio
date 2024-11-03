@@ -176,7 +176,7 @@ section, aside{
     color: blue;
 }
 
-#technicalSkills ul li{
+#technicalSkills ul li, #certificates ul li{
     margin-left: 2px;
     font-weight: bold;
 }
