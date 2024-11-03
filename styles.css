@@ -125,10 +125,12 @@ main {
     align-items: center;
     gap: 20px;
     padding: 20px;
-    flex: 1; /* push the footer to the bottom */
+    flex: 1;
+    /* push the footer to the bottom */
 }
 
-section, aside{
+section,
+aside {
     width: 100%;
     max-width: 800px;
     padding: 20px;
@@ -139,7 +141,7 @@ section, aside{
 }
 
 /* profile picture */
-#profile-pic{
+#profile-pic {
     align-items: center;
     width: 150px;
     height: 150px;
@@ -156,27 +158,40 @@ section, aside{
     /* Scale effect on hover */
 }
 
-.profile-pic-section{
+.profile-pic-section {
     display: flex;
-    justify-content: center; /* center horizontally */
-    align-items: center; /* center vertically */
+    justify-content: center;
+    /* center horizontally */
+    align-items: center;
+    /* center vertically */
     flex-direction: column;
     text-align: center;
     min-height: 50vh;
-    padding: 10px; 
+    padding: 10px;
 }
 
-.profile-pic-section img{
-    margin-bottom: 20px; 
+.profile-pic-section img {
+    margin-bottom: 20px;
 }
 
 /* About page styles*/
 
-#myStory h2, #technicalSkills h2, #interests h2, #certificates h2{
+#myStory h2,
+#technicalSkills h2,
+#interests h2,
+#certificates h2 {
     color: blue;
 }
 
-#technicalSkills ul li, #certificates ul li{
+#technicalSkills ul li,
+#certificates ul li {
     margin-left: 2px;
     font-weight: bold;
+}
+
+#myStory,
+#technicalSkills,
+#interests,
+#certificates {
+    margin-bottom: 15px;
 }
