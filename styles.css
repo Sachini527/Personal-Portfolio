@@ -195,3 +195,58 @@ aside {
 #certificates {
     margin-bottom: 15px;
 }
+
+/* Blog page styles*/
+
+#blogs article,
+#projects div {
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #e3f2fd;
+    border: 1px solid #b3e5fc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    /* Transition for hover animation */
+}
+
+#blogs article h2,
+#projects h2 {
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    color: #00796b;
+}
+
+#blogs article time,
+#projects div img {
+    display: flex;
+    font-size: 0.9em;
+    color: #555;
+}
+
+#projects div img {
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #80deea;
+    border-radius: 5px;
+}
+
+#blogs article:hover,
+#projects div:hover {
+    transform: translateY(-5px);
+    /* Transform animation on hover */
+}
+
+.github-link {
+    display: inline-block;
+    margin-top: 8px;
+    color: #0366d6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.github-link:hover {
+    text-decoration: underline;
+}
+
+/* Contact page styles*/
