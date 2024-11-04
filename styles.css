@@ -174,13 +174,17 @@ aside {
     margin-bottom: 20px;
 }
 
+.profile-pic-section h1 {
+    color: #00796b;
+}
+
 /* About page styles*/
 
 #myStory h2,
 #technicalSkills h2,
 #interests h2,
 #certificates h2 {
-    color: blue;
+    color: #00796b;
 }
 
 #technicalSkills ul li,
@@ -226,7 +230,7 @@ aside {
 
 #projects div img {
     width: 100%;
-    max-width: 300px;
+    max-width: 500px;
     border: 2px solid #80deea;
     border-radius: 5px;
 }
