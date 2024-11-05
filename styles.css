@@ -336,6 +336,7 @@ header nav ul li:nth-child(2) a {
 }
 
 /* Media Queries for Responsive Design */
+/* For tablets */
 @media (max-width: 768px) {
 
     main,
@@ -353,7 +354,7 @@ header nav ul li:nth-child(2) a {
     }
 }
 
-/* Responsive Media Query for smaller devices */
+/* Mobile phones */
 @media (max-width: 480px) {
     header nav ul li {
         margin: 5px 0;
